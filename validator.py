@@ -6,7 +6,7 @@ try:
     Name = input("Enter your name: ")
     age = int(input("Enter your age: "))
 
-    # Operational Logic & Conditionals
+    ### Operational Logic & Conditionals
     if age >= 18 and age < 40:
         print(f"[LOG - OUTPUT]: {Name}, You are an adult.")
     elif age >= 40:
